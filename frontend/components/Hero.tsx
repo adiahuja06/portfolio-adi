@@ -28,7 +28,7 @@ export default function Hero() {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="mt-4 text-lg text-purple-700 font-medium"
           >
-            AI Engineer @ Deloitte | RAG • Computer Vision • Full Stack Developer
+            Associate Analyst @ Deloitte | Python • SQL • Spark • Power BI • FastAPI | Passionate about leveraging AI for social good
           </motion.p>
 
           <motion.div
@@ -67,7 +67,7 @@ export default function Hero() {
 
             {/* Image */}
             <motion.img
-              src="/profile.jpeg"
+              src="/main.jpg"
               alt="Aditya"
               className="relative w-[320px] md:w-[420px] object-cover rounded-3xl shadow-2xl border border-purple-200"
               

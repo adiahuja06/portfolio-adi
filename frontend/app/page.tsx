@@ -5,19 +5,19 @@ import Skills from "../components/Skills";
 import Experience from "../components/Experience";
 import About from "../components/About";
 import Blog from "../components/Blog";
-import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
     <main className="bg-[#0f0f0f] text-white">
       <Navbar />
       <Hero />
-      <Projects />
-      <Skills />
-      <Experience />
       <About />
+      <Experience />
+      <Projects />
       <Blog />
-      <Contact />
+      <Skills />
+      <Footer />
     </main>
   );
 }
